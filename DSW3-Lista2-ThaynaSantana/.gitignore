@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Compilados
+*.js
+*.js.map
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# ZIP
+*.zip
+
+# Outros
+.env
