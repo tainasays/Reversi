@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Reversi</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; }
+    #board { display: grid; grid-template: repeat(8, 40px) / repeat(8, 40px); margin: 20px auto; }
+    .cell { width: 40px; height: 40px; border: 1px solid #333; display: flex; align-items: center; justify-content: center; cursor: pointer; background: #0a7f42; }
+    .cell.valid { background: #0a7f42; }
+    .piece { border-radius: 50%; width: 30px; height: 30px; }
+    .piece.B { background: #222; }
+    .piece.W { background: #fff; border: 1px solid #222; }
+    #status { margin: 10px; font-size: 1.2em; }
+  </style>
+</head>
+<body>
+  <h1>Reversi</h1>
+  <div id="status">Conectando...</div>
+  <div id="board"></div>
+  <script src="script.js"></script>
+</body>
+</html>
